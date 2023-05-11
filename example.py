@@ -24,6 +24,7 @@ class AgeCalculator(QWidget):
 
 
 app = QApplication(sys.argv)
+
 age_calculator = AgeCalculator()
 age_calculator.show()
 sys.exit(app.exec())
